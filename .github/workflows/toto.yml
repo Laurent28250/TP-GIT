@@ -1,0 +1,13 @@
+name: Toto
+
+on:
+  push:
+    branches: [ master ]
+  
+jobs:
+  Hello_Lolo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello Lolo step
+        run: echo "Hello Lolo"
+        ls -lah
