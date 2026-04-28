@@ -10,5 +10,5 @@ jobs:
     steps:
       - name: Hello Lolo step
         run: |
-        echo "Hello Lolo"
-        ls -lah
+          echo "Hello Lolo"
+          ls -lah
