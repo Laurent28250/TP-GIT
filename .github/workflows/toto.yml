@@ -9,5 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello Lolo step
-        run: echo "Hello Lolo"
+        run: |
+        echo "Hello Lolo"
         ls -lah
