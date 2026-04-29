@@ -39,5 +39,7 @@ jobs:
         with:
           name: test-upload
           path: ./
-      - name: job1 step3 
+      - name: job4 step3 
         run: ls -lah
+      - name: job4 step4 
+        run: cat test.txt
