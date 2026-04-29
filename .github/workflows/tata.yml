@@ -32,4 +32,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Job4 
-        run: echo "Hello job4"
+        run: |
+          echo "Hello job4"
+          cat README.md
