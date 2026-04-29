@@ -22,10 +22,11 @@ jobs:
     needs: Job1
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v6
       - name: job3
         run: | 
           echo "Hello job3"
-          exit 1
+          ls -lah
   Job4:
     needs: Job3
     runs-on: ubuntu-latest
