@@ -23,7 +23,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: job3
-        run: echo "Hello job3"
+        run: | 
+          echo "Hello job3"
+          exit 1
   Job4:
     needs: Job3
     runs-on: ubuntu-latest
