@@ -5,9 +5,9 @@ on:
     branches: [ master ]
   
 jobs:
-  Hello_Lolo:
+  Hello_Lolo-mabranche:
     runs-on: ubuntu-latest
     steps:
-      - name: Hello Lolo step
-        run: echo "Hello Lolo"
-        ls -lah
+      - name: Hello Lolo ma branche step 1 
+        run: echo "Hello Lolo depuis ma branche"
+          ls -lah
