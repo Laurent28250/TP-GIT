@@ -1,13 +1,12 @@
-name: Toto
-
 on:
   push:
-    branches: [ master ]
+    branches: [ mabranche ]
   
 jobs:
   Hello_Lolo-mabranche:
     runs-on: ubuntu-latest
     steps:
       - name: Hello Lolo ma branche step 1 
-        run: echo "Hello Lolo depuis ma branche"
+        run: |
+          echo "Hello Lolo depuis ma branche"
           ls -lah
