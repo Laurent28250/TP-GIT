@@ -1,0 +1,13 @@
+on:
+  pull_request:
+    types:
+      synchronize
+    branches: [master/*]
+
+jobs:
+  Bonjour_lolo_master:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello Lolo master step 1 
+        run: echo "Hello Lolo depuis master"
+          
