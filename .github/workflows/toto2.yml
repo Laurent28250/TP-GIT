@@ -1,8 +1,10 @@
 on:
   pull_request:
     types: [opened, reopened]
-    branches: [master/*]
-
+    branches: [master]
+  schedule:
+    - cron: '*/5 * * * *'
+    - cron: "0 * * * *"
 jobs:
   Bonjour_lolo_master:
     runs-on: ubuntu-latest
