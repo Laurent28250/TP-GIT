@@ -1,6 +1,6 @@
 on:
   push:
-    branches: [ mabranche ]
+    branches: [ master ]
   
 jobs:
   Job1:
