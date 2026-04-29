@@ -37,7 +37,7 @@ jobs:
       - name: Download Artifact step 2
         uses: actions/download-artifact@v8
         with:
-          name: test-download
+          name: test-upload
           path: ./
       - name: job1 step3 
         run: ls -lah
